@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "336075486333",
+    "firebase_url": "https://nccstory-e12da.firebaseio.com",
+    "project_id": "nccstory-e12da",
+    "storage_bucket": "nccstory-e12da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336075486333:android:81af1707b91faca85ead14",
+        "android_client_info": {
+          "package_name": "nccstory.ml.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336075486333-ll9qb604hjs3hl48bscrfbu94h6hndsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nccstory.ml.androidapp",
+            "certificate_hash": "13a7325aae6320e6e262bcf08c4d66251da871c6"
+          }
+        },
+        {
+          "client_id": "336075486333-m7rubiehkmnk77co8cgjjbo8ka5207ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nccstory.ml.androidapp",
+            "certificate_hash": "39f67850d9a2a86a1d1cd6e95bbbb4cd79cd5cfb"
+          }
+        },
+        {
+          "client_id": "336075486333-thi8nut38n02u293nus0aqv8s73f3r9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx8eERLlC-pXekjmfXoQNtfL4zGZIAWXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336075486333-thi8nut38n02u293nus0aqv8s73f3r9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

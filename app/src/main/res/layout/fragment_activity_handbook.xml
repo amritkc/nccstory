@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/whitecolor"
+    android:layout_height="match_parent"
+    tools:context=".activityhandbook">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:background="#fbfbfb">
+
+        <ImageView
+            android:id="@+id/imgarmy"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="99dp"
+            android:layout_marginRight="99dp"
+            android:src="@drawable/army" />
+
+        <Button
+            android:id="@+id/armypfaf1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textColor="@color/whitecolor"
+            android:text="Army HandBook"
+            android:textSize="22dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/shape"
+            android:layout_below="@+id/imgarmy"/>
+
+        <ImageView
+            android:id="@+id/imgairforce"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_below="@+id/armypfaf1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="99dp"
+            android:layout_marginRight="99dp"
+            android:src="@drawable/airforce" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textColor="@color/whitecolor"
+            android:text="AirForce HandBook"
+            android:textSize="22dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/shape"
+            android:layout_below="@+id/imgairforce"/>
+
+        <ImageView
+            android:id="@+id/imgnavy"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_below="@+id/button4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="99dp"
+            android:layout_marginRight="99dp"
+            android:src="@drawable/navy" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textColor="@color/whitecolor"
+            android:text="Navy HandBook"
+            android:textSize="22dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/shape"
+            android:layout_below="@+id/imgnavy"
+            android:layout_marginBottom="60dp"/>
+    </RelativeLayout>
+
+    <!--    <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:background="@color/whitecolor"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp">
+            <ImageView
+                android:id="@+id/imgarmy"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:foreground="@drawable/army"/>
+            <Button
+                android:id="@+id/armypfaf1"
+                android:background="@drawable/shape"
+                android:layout_below="@+id/imgarmy"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Army Hand Book"
+                android:textColor="@color/whitecolor"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/armypfaf1"
+                android:id="@+id/imgairforce"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:foreground="@drawable/airforce" />
+
+            <Button
+                android:id="@+id/button4"
+                android:background="@drawable/shape"
+                android:layout_below="@+id/imgairforce"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Airforce Hand Book"
+                android:textColor="@color/whitecolor"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/button4"
+                android:id="@+id/imgnavy"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:foreground="@drawable/navy" />
+            <Button
+                android:id="@+id/button3"
+                android:background="@drawable/shape"
+                android:layout_below="@+id/imgnavy"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Navy Hand Book"
+                android:textColor="@color/whitecolor"
+                android:textStyle="bold"
+                android:layout_marginBottom="100dp"/>
+
+        </RelativeLayout>
+    -->
+
+</ScrollView>

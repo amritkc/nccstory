@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tagsFragment"
+    android:background="@color/whitecolor">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <ImageView
+        android:id="@+id/imageViewquiz"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:src="@drawable/quizone"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageViewquiz"
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Start quiz"
+        android:textColor="@color/whitecolor"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginBottom="200dp"
+        android:layout_below="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(Quiz Will Be Updated Weekly)"
+        />
+</RelativeLayout>
+  <!--  <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff">
+  <Button
+            android:id="@+id/quiz"
+            android:layout_width="205dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="304dp"
+            android:background="@color/colorPrimary"
+            android:text="Start quiz"
+            android:textColor="@color/whitecolor"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="137dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="478dp"
+            android:gravity="center"
+            android:text="Quiz"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.437"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="312dp"
+            android:layout_height="188dp"
+            android:gravity="center"
+            android:text="Quiz will be updated every week"
+            android:textColor="@color/colorPrimary"
+            android:textSize="45sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.605"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quiz"
+            app:layout_constraintVertical_bias="0.121" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+-->
+</ScrollView>

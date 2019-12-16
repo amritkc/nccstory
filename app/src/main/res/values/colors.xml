@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3498DB</color>
+    <color name="colorPrimaryDark">#3498DB</color>
+    <color name="colorAccent">#F2D81B60</color>
+    <color name="whitecolor">#FFFFFF</color>
+    <color name="wee">#3498DB</color>
+    <color name="title_color">#3498DB</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

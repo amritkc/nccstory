@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/whitecolor"
+    android:layout_height="match_parent"
+    tools:context=".aboutapp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/image12701"/>
+        <TextView
+            android:id="@+id/infoabout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20sp"
+            android:layout_below="@+id/imglogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutapp1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:id="@+id/infoabout1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/infoabout"
+            android:text="Any Complain Visit https://nccstory.ml"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/infoabout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infoabout1"
+            android:text="Version 2.3"
+            android:gravity="center"/>
+        <com.google.android.gms.ads.AdView
+            android:layout_above="@+id/infoabout2"
+            android:id="@+id/adabout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/banner" />
+    </RelativeLayout>
+
+</LinearLayout>

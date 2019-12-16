@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".webFragment"
+    android:background="@color/whitecolor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whitecolor">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/song1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:textSize="50sp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/one"
+            android:textColor="@color/colorPrimary"
+           android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:text="Written by : Sudarshan Faakir"/>
+<LinearLayout
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/two">
+
+    <ImageView
+        android:id="@+id/logosong1"
+        android:layout_below="@+id/two"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/quaver"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/logosong2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/songview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/headphones"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+</LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineartwo"
+            android:layout_below="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/songview"
+                android:layout_below="@+id/linear"
+                android:background="@drawable/shape2"
+                android:text="View Song"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:textColor="@color/whitecolor"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_width="160dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="80dp"/>
+            <Button
+                android:id="@+id/play"
+                android:layout_below="@+id/linear"
+                android:background="@drawable/shape2"
+                android:text="Play Song"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:textColor="@color/whitecolor"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_width="160dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="80dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="20dp"
+                android:layout_below="@+id/lineartwo"
+            android:text="NCC COMMANDS COMMING SOON.. "/>
+
+
+        <!--   <ImageView
+               android:id="@+id/logosong"
+               android:layout_below="@+id/two"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/quaver"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"/>
+
+            <Button
+
+           android:id="@+id/songview"
+           android:layout_below="@+id/logosong"
+           android:background="@drawable/shape2"
+           android:text="View Song"
+           android:layout_marginLeft="70dp"
+           android:layout_marginRight="70dp"
+           android:gravity="center"
+           android:textColor="@color/whitecolor"
+           android:textSize="18sp"
+           android:textStyle="normal"
+           android:layout_width="match_parent"
+           android:layout_marginTop="20dp"
+           android:layout_centerInParent="true"
+           android:layout_height="80dp"/>
+           <ImageView
+               android:id="@+id/logosong2"
+               android:layout_marginTop="20dp"
+               android:layout_below="@+id/songview"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/headphones"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"/>
+
+           <Button
+               android:layout_marginLeft="70dp"
+               android:layout_marginRight="70dp"
+               android:id="@+id/play"
+               android:layout_below="@+id/logosong2"
+               android:background="@drawable/shape2"
+               android:text="Play Song"
+               android:gravity="center"
+               android:textColor="@color/whitecolor"
+               android:textSize="18sp"
+               android:textStyle="normal"
+               android:layout_width="match_parent"
+               android:layout_marginTop="20dp"
+               android:layout_centerInParent="true"
+               android:layout_height="80dp"
+               android:layout_marginBottom="80dp"/>
+   -->
+</RelativeLayout>
+</ScrollView>

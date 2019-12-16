@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">NccStory</string>
+    <string name="addmob_app_id">ca-app-pub-8901228422197240/9293884948</string>
+    <string name="adsid">ca-app-pub-9368976459753970/9718313390</string>
+    <string name="adsunit">ca-app-pub-8901228422197240/9293884948</string>
+    <string name="banner">ca-app-pub-8901228422197240/2183311991</string>
+    <string name="indus">ca-app-pub-8901228422197240/4359679507</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="song1">Hum Sab Bharatiya Hain, Hum Sab Bharatiya Hain</string>
+    <string name="song2">Apni Manzil Ek Hai,</string>
+    <string name="song3"> Ha, Ha, Ha, Ek Hai,</string>
+    <string name="song4">Hum Sab Bharatiya Hain.</string>
+    <string name="song5">Kashmir Ki Dharti Rani Hai,</string>
+    <string name="song6">Sartaj Himalaya Hai,.</string>
+    <string name="song7">Saadiyon Se Humne Isko Apne Khoon Se Pala Hai.</string>
+    <string name="song8">Desh Ki Raksha Ki Khatir Hum Shamshir Utha Lenge,</string>
+    <string name="song9">Hum Shamshir Utha Lenge..</string>
+    <string name="song10">Bikhre Bikhre Taare Hain Hum Lekin Jhilmil Ek Hai,</string>
+    <string name="song11"> Hum Sab Bharatiya Hai.</string>
+    <string name="song12">Mandir Gurudwaare Bhi Hain Yahan.</string>
+    <string name="song13">Aur Masjid Bhi Hai Yahan.</string>
+    <string name="song14">Girija Ka Hai Ghariyaal Kahin.</string>
+    <string name="song15">Mullah ki Kahin Hai Ajaan.</string>
+    <string name="song16">Ek Hee Apna Ram Hain, Ek hi Allah Taala Hai,.</string>
+    <string name="song17">Ek Hee Allah Taala Hain, Raang Birange Deepak Hain Hum,.</string>
+    <string name="song18">lekin Jagmag Ek Hai, Ha Ha Ha Ek Hai, Ho Ho Ho Ek Hai..</string>
+    <string name="song19">Hum Sab Bharatiya Hain, Hum Sab Bharatiya Hain.</string>
+    <string name="aboutapp1">This App contain Everything that you need for NCC</string>
+
+    <string name="title_activity_splash">splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
